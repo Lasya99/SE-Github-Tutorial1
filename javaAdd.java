@@ -22,13 +22,14 @@ import java.util.Scanner;
                        res = a+b;
                        System.out.print("Result = " + res);
                        break;
-            case '2' : System.exit(0);
+            case '3' : System.exit(0);
                        break;
             default : System.out.print("INVALID CHOICE");
                       break;
           }
         }
       System.out.print("\n------------");
+      System.out.print("Changed");
       } while (choice !=2);
     }
   }
